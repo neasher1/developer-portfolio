@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .peterParkar {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -53,4 +57,42 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 25px;
+    box-shadow: 10px 10px 40px grey;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.experience-item p {
+    text-align: justify;
+    width: 90%;
+    color: dimgray;
+}
+
+.experience-area h1 {
+    text-align: center;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full-stack-dev {
+    border-left: 7px solid tomato;
+}
+
+#baby-web-dev {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
